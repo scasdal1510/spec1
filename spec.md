@@ -20,4 +20,5 @@ ofreciendo operaciones propias de CRUD.
 ##  3.Modelo de datos
 | Campo | Tipo | Obligatorio | Descripcion |
 |-------|------|-------------|-------------|
-
+| id | INT auto_incremental | yes | Identificador único |
+| name | varchar(100) | yes | Nombre del contacto |
