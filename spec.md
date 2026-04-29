@@ -31,7 +31,18 @@ Tabla contacto en base de datos MySQL
 
 ## 4. Casos de uso
 ### CU-01: Añadir contacto
+1. El usuario selecciona "Añadir contacto"
+2. El sistema pide los datos del contacto
+3. El usuario introduce los datos
+4. El sistema comprueba si existe un contacto con el mismo nombre y/o telefono
+5. El sistem inserta el contacto en la BBDD y te muestra el id con los datos del contacto.
 ### CU-02: Ver contacto
+1. El usuarios selecciona "Ver contacto"
+2. El sistema pide el nombre del contaco
+3. El usuario introduce los datos
+4. El sistema comprueba que existen los datos con ese nombre
+5. El sistema muestra los datos del contacto
 ### CU-03: Eliminar contacto
+
 ### CU-04: Modificar contacto
 ### CU-05: Listar contactos
