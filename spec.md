@@ -18,7 +18,20 @@ ofreciendo operaciones propias de CRUD.
 - Almacene información en una base de datos MySQL.
 
 ##  3.Modelo de datos
+Tabla contacto en base de datos MySQL
 | Campo | Tipo | Obligatorio | Descripcion |
 |-------|------|-------------|-------------|
-| id | INT auto_incremental | yes | Identificador único |
-| name | varchar(100) | yes | Nombre del contacto |
+| id | INT auto_incremental | Yes | Identificador único |
+| name | varchar(100) | Yes | Nombre del contacto |
+| surname | varchar(200) | Yes | Apellidos contacto |
+| tel1 | int | Yes | telefono contacto1 |
+| tel2 | int | No | telefono contacto2 |
+| email | varchar(100) | No | Email contacto |
+| notes | TEXT |  No | Informacion contacto |
+
+## 4. Casos de uso
+### CU-01: Añadir contacto
+### CU-02: Ver contacto
+### CU-03: Eliminar contacto
+### CU-04: Modificar contacto
+### CU-05: Listar contactos
