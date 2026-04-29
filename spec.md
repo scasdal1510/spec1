@@ -36,6 +36,13 @@ Tabla contacto en base de datos MySQL
 3. El usuario introduce los datos
 4. El sistema comprueba si existe un contacto con el mismo nombre y/o telefono
 5. El sistem inserta el contacto en la BBDD y te muestra el id con los datos del contacto.
+** Flujo alternativo A (validacion falla)**
+  - El sistema muestra un mensaje de error y solicita corregir el error.
+** Flujo alternativo B (validacion correcta) **
+  - El sistema inserta los datos en la BBDD
+** Flujo alternativo C (contacto duplicado) **
+  - El sistema nos advierte de que existe el contacto y nos pide confirmación de guardado.
+
 ### CU-02: Ver contacto
 1. El usuarios selecciona "Ver contacto"
 2. El sistema pide el nombre del contaco
